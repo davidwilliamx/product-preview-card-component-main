@@ -19,6 +19,8 @@
     --text-font: 'Montserrat', sans-serif;
 }
 
+/* ######################################### */
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -35,6 +37,9 @@ body {
     align-items: center;
     width: 600px;
 }
+
+/* ######################################### */
+
 .product {
     width: 50%;
     display: flex;
@@ -51,6 +56,8 @@ body {
     display: none;
 }
 
+/* Fim Product */
+/* ######################################### */
 
 .description {
     width: 50%;
@@ -119,6 +126,10 @@ body {
     background-color: var(--primary-dark-cyan-active);
     cursor: pointer;
 }
+
+/* Fim Description */
+/* ######################################### */
+
 @media (max-width: 620px) {
     .container {
         display: flex;
